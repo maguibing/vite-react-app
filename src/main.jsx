@@ -12,6 +12,9 @@ import Contact, { contactLoader, contactAction } from './routes/Contact.jsx'
 import EditContact, { editAction } from './routes/Edit.jsx'
 import { destroyAction } from './routes/Destroy.jsx'
 
+
+// import HelloWorld from './components/HelloWorld/index.jsx'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -50,5 +53,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <RouterProvider router={router}></RouterProvider>
   </Provider>
+  // <HelloWorld />
   // </React.StrictMode>
 )
