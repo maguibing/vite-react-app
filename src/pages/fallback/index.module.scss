@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  width: 100%;
+  :global {
+    .nav {
+      width: 100px;
+      background: #ccc;
+    }
+    .main {
+      flex: 1;
+      background: gold;
+    }
+  }
+}
